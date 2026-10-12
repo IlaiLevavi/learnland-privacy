@@ -17,67 +17,126 @@
 </head>
 <body>
 <h1>LearnLand — Privacy Policy</h1>
-<p class="updated">Last updated: 10 August 2026</p>
+<p class="updated">Last updated: 12 October 2026</p>
 
-<p>LearnLand is a geography quiz game. Single-player is fully offline and needs no
-account. The optional <strong>Versus</strong> (multiplayer) mode uses a backend
-(Google Firebase) and requires signing in. This policy explains what data that mode
-collects, why, and how to delete it.</p>
+<p>LearnLand is a geography quiz game. Single-player works fully offline and needs no
+account. This policy explains what data the game collects, why, who processes it, the
+choices you have, and how to delete it.</p>
 
 <h2>Who we are</h2>
 <p>LearnLand is developed by Ilai Levavi. Contact:
 <a href="mailto:ilailevavi@gmail.com">ilailevavi@gmail.com</a>.</p>
 
-<h2>What single-player collects</h2>
-<p><strong>Nothing leaves your device.</strong> Your settings, language, and high
-scores are stored only in the app's local storage on your phone. Single-player makes
-no network requests.</p>
+<h2>On your device</h2>
+<p>Your settings, language, scores, coins, levels, stamp album and the record of which
+countries you have answered are stored in the app's local storage on your phone. They
+stay there unless a feature below sends them.</p>
 
-<h2>What Versus (multiplayer) collects</h2>
-<p>When you choose to enter Versus and sign in, we create an account for you and store
-the following in Google Firebase (Firebase Authentication and Cloud Firestore):</p>
+<h2>Usage data (analytics)</h2>
+<p>To learn how the game is played and make it better, LearnLand uses
+<strong>Google Analytics for Firebase</strong>. You decide whether it runs:</p>
+<ul>
+  <li><strong>In the European Economic Area and the United Kingdom</strong> (and when the
+    app cannot tell where your phone is), the game asks first, at the start of the first
+    run. Nothing is collected unless you say yes. If you say no, you are not asked again.</li>
+  <li><strong>Elsewhere</strong>, usage data is on by default.</li>
+  <li><strong>Everywhere</strong>, you can switch it on or off at any time in
+    Settings → Privacy → <em>Share usage data</em>. Switching it off stops collection and
+    deletes the analytics identifier and any not-yet-sent usage data stored on your
+    phone.</li>
+</ul>
+<p>When it is on, the game sends:</p>
+<ul>
+  <li><strong>Game events:</strong> when a round ends or is quit (the mode, difficulty,
+    number of questions, right answers, score, coins and experience earned, and how long
+    the round took); when a level is reached; when the Shop or the League is opened; and
+    when you turn usage data on.</li>
+  <li><strong>Two settings about you as a player:</strong> your level range (for example
+    "5–9") and your preferred difficulty.</li>
+  <li><strong>What the Analytics software adds by itself:</strong> a random app-instance
+    identifier and a Firebase installation identifier, your device model, operating system
+    and app version, your language, approximate location (such as country and city, derived by
+    Google from your masked IP address), and when sessions start and how long they last.</li>
+</ul>
+<p>Usage data is not linked to your name, email address or Versus account. We do not
+collect your advertising ID. Ad personalisation and Google signals are switched off for
+this data. Google keeps it for 14 months.</p>
+
+<h2>Versus (multiplayer) and the League</h2>
+<p>Versus and the League are optional and need an account. When you choose to sign in, we
+create an account for you and store the following in Google Firebase (Firebase
+Authentication and Cloud Firestore):</p>
 <ul>
   <li><strong>Account identifier</strong> — a Firebase user ID. Depending on how you
-    sign in, this is linked to: an anonymous guest ID (no personal data); your Google
-    account's email and display name; or an email address and password you provide.</li>
+    sign in, it is linked to: an anonymous guest ID (no personal data); your Google
+    account's email address and display name; or an email address and password you
+    provide.</li>
   <li><strong>Profile</strong> — a username you choose and a short friend code, both
     visible to other players so they can challenge you.</li>
   <li><strong>Gameplay records ("traces")</strong> — for each Versus round you
     complete: the round's seed and difficulty, which answer you tapped for each
     question, and your answer times. This is what lets an opponent replay and compare
     the same round. It contains no personal information beyond your username.</li>
-  <li><strong>Friends</strong> — friend codes you add.</li>
+  <li><strong>Friends</strong> — the friend codes you add.</li>
+  <li><strong>League scores</strong> — your best score on each League board, with your
+    username and the time it was set, shown to other players on the boards.</li>
 </ul>
-<p>We do <strong>not</strong> collect your location, contacts, phone number, photos,
-or advertising identifiers. The app contains no ads and no third-party analytics or
-tracking SDKs.</p>
+<!-- ADD WHEN v1.0 STEP 8 (CLOUD SAVE) SHIPS — publish this item with it, not before:
+  <li><strong>Saved progress</strong> — your coins, stars, experience and level, your
+    stamp album, your progress in the game's features, the map looks you own, and the
+    record of which countries you have answered, so your progress can be restored on
+    another phone. Only you can read or change it.</li>
+-->
+
+<p>We do <strong>not</strong> collect your contacts, phone number, photos, precise
+location or advertising ID.</p>
 
 <h2>Why we collect it</h2>
-<p>Solely to run multiplayer: to identify your account, let friends find you by code,
-deliver challenges, and show side-by-side comparisons. We do not sell data, and we do
-not use it for advertising.</p>
+<ul>
+  <li><strong>Usage data:</strong> to understand how the game is played (for example
+    which modes are played and where rounds are quit) and to improve it.</li>
+  <li><strong>Account data:</strong> to run Versus and the League: to identify your
+    account, let friends find you by code, deliver challenges, show side-by-side
+    comparisons and show the boards.</li>
+</ul>
+<p>We never sell your data.</p>
 
-<h2>Where it is stored</h2>
-<p>Data is processed by Google Firebase on Google Cloud infrastructure (Firestore
-database region: Tel Aviv, <code>me-west1</code>). Google acts as our data processor;
-see Google's privacy practices at
+<h2>Legal bases (European Economic Area and United Kingdom)</h2>
+<p>Usage data is collected only with your consent, which you can withdraw at any time in
+Settings. Account data is processed because it is needed to provide the features you
+choose to use (Versus and the League).</p>
+
+<h2>Who processes it</h2>
+<p>Google provides Firebase and Google Analytics and processes this data on our behalf on
+Google Cloud infrastructure. The Firestore database is in Tel Aviv
+(<code>me-west1</code>); Google may process analytics data in other countries under its
+data-transfer safeguards. See Google's privacy practices at
 <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>.</p>
+
+<h2>Your rights</h2>
+<p>You can ask to see, correct or delete your data, object to its use, or withdraw your
+consent, by writing to <a href="mailto:ilailevavi@gmail.com">ilailevavi@gmail.com</a>.
+If you are in the European Economic Area or the United Kingdom, you can also complain to
+your data-protection authority.</p>
 
 <h2>Deleting your account and data</h2>
 <p>You can permanently delete your account and all associated data at any time:</p>
 <ul>
   <li><strong>In the app:</strong> Settings → your account → <em>Delete account</em>.
     This immediately erases your profile, username, friend code, friends, gameplay
-    traces, and sign-in credentials.</li>
+    traces, League scores and sign-in credentials.</li>
   <li><strong>By the web:</strong> if you cannot use the app, request deletion at
     <a href="delete-account.html">the account-deletion page</a> or email
     <a href="mailto:ilailevavi@gmail.com">ilailevavi@gmail.com</a> and we will delete
     your data within 30 days.</li>
 </ul>
+<p>Usage data is not tied to your account. To stop it and delete what is waiting on your
+phone, switch off Settings → Privacy → <em>Share usage data</em>. Usage data already sent
+is deleted by Google after 14 months.</p>
 
 <h2>Children</h2>
-<p>LearnLand is a general-audience game and is not directed at children under 13. We do
-not knowingly collect personal data from children.</p>
+<p>LearnLand is a general-audience game for players aged 13 and over, and is not directed
+at children under 13. We do not knowingly collect personal data from children.</p>
 
 <h2>Changes</h2>
 <p>We may update this policy; the "last updated" date above will change accordingly.</p>
