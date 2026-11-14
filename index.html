@@ -17,7 +17,7 @@
 </head>
 <body>
 <h1>LearnLand — Privacy Policy</h1>
-<p class="updated">Last updated: 11 November 2026</p>
+<p class="updated">Last updated: 14 November 2026</p>
 
 <p>LearnLand is a geography quiz game. Single-player works fully offline and needs no
 account. This policy explains what data the game collects, why, who processes it, the
@@ -65,16 +65,28 @@ stay there unless a feature below sends them.</p>
     bought); when an item for your explorer is bought in the Shop (the item, its tier, its price,
     your coins before it, your level and which weekend it was sold); when progress saved to your account is restored to your phone, or
     your phone's progress and your account's differ and one of them is kept; when the Shop or
-    the League is opened; and when you turn usage data on.<!-- v1.0 step 9, Part B (publish with the store submission): ; and when the
+    the League is opened; when a purchase with real money is made, waits for payment or a
+    connection, is cancelled or is refunded (the product and the result, and for a completed
+    purchase its price and currency, with an order number that identifies neither you nor
+    your store account; purchases made by testers are marked as tests); when a round or a match
+    starts (the mode, the difficulty and a random round number that links it to its end); the
+    screens and tabs you open and how long you spend there; the first-run steps you reach; when
+    the quest board is opened and which of the day's quests it showed; when a daily quest or a
+    weekend road step is completed or claimed (which quest, its kind, and the coins and experience
+    it paid), when a weekend road step is passed or missed, and when a weekend road's item is won
+    (which weekend); the Shop's sections you
+    see and the offers you tap to buy; the coins you earn and spend (how many, and from what or on
+    what); when a match with a friend starts and is sent (its kind and mode); and when you turn
+    usage data on.<!-- v1.0 step 9, Part B (publish with the store submission): ; and when the
     game asks the store to show its review dialog (which moment asked: a won round, a level
-    reached or an album page completed) --><!-- C9 (publish with the store submission): ; when a
-    daily quest or a weekend road step is completed or claimed (which quest, its kind, and the
-    coins and experience it paid), when a weekend road step is passed or failed and when one is
-    continued for coins (the step and its price), and when a weekend road's item is won (which
-    weekend) --></li>
-  <li><strong>Three settings about you as a player:</strong> your level range (for example
-    "5–9"), your preferred difficulty, and how many days after installing the game you
-    first spent coins.</li>
+    reached or an album page completed) --></li>
+  <li><strong>Five settings about you as a player:</strong> your level range (for example
+    "5–9"), your preferred difficulty, how many days after installing the game you
+    first spent coins, the language you chose in the game, and your album's progress range
+    (for example "12–35" stamps).</li>
+  <li><strong>How the app runs:</strong> how long the game took to start (a range, such as
+    "300–500 ms"), and when the game hits an error, the kind of error and a short code for where
+    it happened — never what was on your screen or anything you typed.</li>
   <li><strong>What the Analytics software adds by itself:</strong> a random app-instance
     identifier and a Firebase installation identifier, your device model, operating system
     and app version, your language, approximate location (such as country and city, derived by
@@ -85,9 +97,9 @@ collect your advertising ID. Ad personalisation and Google signals are switched 
 this data. Google keeps it for 14 months.</p>
 
 <h2>Versus (multiplayer), the League and your saved progress</h2>
-<p>Versus, the League and saving your progress to an account are optional and need an
-account. When you choose to sign in, we create an account for you and store the following
-in Google Firebase (Firebase Authentication and Cloud Firestore):</p>
+<p>Versus, the League, saving your progress to an account and purchases with real money are
+optional and need an account. When you choose to sign in, we create an account for you and
+store the following in Google Firebase (Firebase Authentication and Cloud Firestore):</p>
 <ul>
   <li><strong>Account identifier</strong> — a Firebase user ID. Depending on how you
     sign in, it is linked to: an anonymous guest ID (no personal data); your Google
@@ -103,7 +115,18 @@ in Google Firebase (Firebase Authentication and Cloud Firestore):</p>
   <li><strong>Friends</strong> — the friend codes you add.</li>
   <li><strong>League scores</strong> — your best score on each League board, with your
     username and the time it was set, shown to other players on the boards.</li>
-  <li><strong>Saved progress</strong> — your coins, stars, experience and level, your
+  <li><strong>Purchases</strong> — purchases with real money are made through Google Play or
+    the App Store, which take your payment: we never see your card or payment details. Our
+    server checks each purchase with the store before the game gives you anything, and keeps
+    a record of it with your account: the product, the store's order reference, the time, the
+    price and currency when the store reports them, and whether it was refunded. This is how
+    the game gives you exactly what you bought, once; brings it back on another phone (Android
+    or iPhone) when you sign in; takes back what a refund paid back; and stops the same
+    purchase being used twice. You can read your own record through the game; no other player
+    can. We also keep a copy of each purchase WITHOUT your account (the product, the store, the
+    price, currency and country, the time, and whether it was refunded) to count the game's
+    sales.</li>
+  <li><strong>Saved progress</strong> — your coins (including the coins you bought), stars, experience and level, your
     stamp album (including the stamps you bought in the stamp shop), your progress in the game's features (such as the Mystery Country days you
     have played and the difficulties you have cleared), how many days you have played, the map looks you own,<!-- C9 (publish with the store submission): your progress on this weekend's road, -->
     and the record of which countries you have answered, so your progress can be restored on
@@ -132,20 +155,27 @@ location or advertising ID.</p>
     account, let friends find you by code, deliver challenges, show side-by-side
     comparisons and show the boards; and to keep your saved progress, so you can restore
     it when you sign in on another phone.</li>
+  <li><strong>Purchase records:</strong> to give you what you bought exactly once, restore it
+    on your other phones, handle refunds, prevent fraud, and keep the sales records the law
+    requires; the copy without your account, to count the game's sales.</li>
 </ul>
 <p>We never sell your data.</p>
 
 <h2>Legal bases (European Economic Area and United Kingdom)</h2>
 <p>Usage data is collected only with your consent, which you can withdraw at any time in
 Settings. Account data is processed because it is needed to provide the features you
-choose to use (Versus, the League and saving your progress).</p>
+choose to use (Versus, the League and saving your progress), and purchase records because
+they are needed to deliver what you bought and because the law requires sales records.</p>
 
 <h2>Who processes it</h2>
 <p>Google provides Firebase and Google Analytics and processes this data on our behalf on
 Google Cloud infrastructure. The Firestore database is in Tel Aviv
 (<code>me-west1</code>); Google may process analytics data in other countries under its
 data-transfer safeguards. See Google's privacy practices at
-<a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>.</p>
+<a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>.
+Purchases with real money are processed by Google Play (on Android) or Apple's App Store (on
+iPhone) under their own privacy policies; the store tells our server only about the purchase
+itself, never about your payment details.</p>
 
 <h2>Your rights</h2>
 <p>You can ask to see, correct or delete your data, object to its use, or withdraw your
@@ -159,12 +189,17 @@ your data-protection authority.</p>
   <li><strong>In the app:</strong> Settings → your account → <em>Delete account</em>.
     This immediately erases your profile, username, friend code, friends, gameplay
     traces, League scores, saved progress and sign-in credentials. The progress stored on
-    your phone itself stays on your phone.</li>
+    your phone itself stays on your phone. Your purchase records are kept without your
+    account (see below).</li>
   <li><strong>By the web:</strong> if you cannot use the app, request deletion at
     <a href="delete-account.html">the account-deletion page</a> or email
     <a href="mailto:ilailevavi@gmail.com">ilailevavi@gmail.com</a> and we will delete
     your data within 30 days.</li>
 </ul>
+<p>Purchase records are not deleted with your account: they are kept, no longer linked to
+it, for as long as a refund is possible and the law requires us to keep sales records, and to
+prevent fraud. If you sign in with a new account on the same store account, the items you
+bought (never the coins) can be restored to it.</p>
 <p>Usage data is not tied to your account. To stop it and delete what is waiting on your
 phone, switch off Settings → <em>Usage data</em>. Usage data already sent
 is deleted by Google after 14 months.</p>
